@@ -133,4 +133,4 @@ Use this checklist to ensure safe and successful deployments. The Release Manage
 ## Related Documents
 - [Roles and Personas](../octoacme-roles-and-personas.md) - Release Manager role definition
 - [QA Checklist](qa-checklist.md) - QA validation before release
-- [Release and Deployment](../octoacme-release-and-deployment.md) - Release process overview
+- [Release and Deployment Guide](../octoacme-release-and-deployment.md) - Release and deployment procedures

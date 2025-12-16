@@ -10,7 +10,7 @@ This document defines typical roles and responsibilities used in OctoAcme projec
 - [Communication Coordinator](#communication-coordinator)
 - [Stakeholder Liaison](#stakeholder-liaison)
 - [Release Manager](#release-manager)
-- [Product Operations (ProdOps)](#product-operations-prodops)
+- [Product Operations (ProdOps)](#product-operations)
 - [RACI Matrix for Common Project Activities](#raci-matrix-for-common-project-activities)
 
 ---
