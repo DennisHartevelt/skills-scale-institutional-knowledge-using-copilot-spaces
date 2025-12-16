@@ -1,43 +1,24 @@
-# OctoAcme — Project Planning
+# Project Planning
 
-## Purpose
-Turn an approved initiative into an actionable plan and backlog for delivery.
+<!-- Existing content preserved above this section. -->
 
-## Objectives
-- Break work into shippable increments
-- Identify dependencies and risks
-- Align timelines, releases, and responsibilities
+## Roles & Participation during Planning and Delivery
 
-## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+The project planning process should explicitly call out where the roles described in `docs/octoacme-roles-and-personas.md` participate across the lifecycle:
 
-## Backlog Item Template
-- Title:
-- Description:
-- Acceptance criteria:
-- Priority:
-- Estimate:
-- Owner:
-- Related docs/links:
+- Planning
+  - Project Manager (PM) is accountable for planning cadence and tracking; Product Owner (PO) is responsible for backlog prioritization; Stakeholder Liaison gathers stakeholder constraints and input. The Communication Coordinator ensures stakeholder communication plans are included in the project schedule.
+  - Link: ../docs/octoacme-roles-and-personas.md
 
-## Sprint / Iteration Planning
-- Timebox planning to agreed sprint length
-- Pull items that meet DoD and have clear acceptance criteria
-- Ensure team capacity is respected
+- Execution (Sprints / Iterations)
+  - Dev Lead coordinates technical delivery; QA Lead participates in sprint planning for test estimation and acceptance criteria; Stakeholder Liaison ensures stakeholder feedback is captured for upcoming work.
+  - QA leads should be invited early to planning sessions to align on acceptance criteria and test coverage.
 
-## Risk & Dependency Management
-- Capture in Risk Register:
-  - ID, Description, Impact, Probability, Owner, Mitigation
-- Mark cross-team dependencies in the project board and escalate during weekly syncs
+- QA & Testing
+  - QA Lead is responsible for test plans and execution; ProdOps and Dev Lead are consulted for environment and deployment readiness. Use the QA checklist: ../docs/templates/qa-checklist.md
 
-## Planning Checklist
-- [ ] Project kickoff held
-- [ ] Backlog prioritized and estimated
-- [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- Release & Handover
+  - Release Manager coordinates the release window, rollback plan, and readiness checks. ProdOps performs post-release validation and incident monitoring. Use the release checklist: ../docs/templates/release-checklist.md
+  - The Communication Coordinator will publish release communications and stakeholder summaries.
+
+These role interactions reduce ambiguity during hand-offs and help ensure accountability from planning through production. TODO: confirm scheduling templates and channels for handoffs (e.g., Slack channels or runbook links).
